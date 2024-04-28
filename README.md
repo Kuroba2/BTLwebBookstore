@@ -1,3 +1,4 @@
+Html-CSS-PHP
 B1.Cài XAMPP control panel, start APACHE và Mysql, nếu ko start được mysql thì window+search gõ service rồi tìm mysql stop nó lại rồi quay lại XAMPP start.
 
 B2. Kéo project tải về vào folder PHPAMIN XAMP\htdocs\
