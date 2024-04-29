@@ -50,7 +50,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_pendings; ?>/-</h3>
+         <h3><?php echo $total_pendings; ?>K VNĐ/-</h3>
          <p>Doanh thu dự kiến</p>
       </div>
 
