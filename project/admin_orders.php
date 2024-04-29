@@ -64,7 +64,7 @@ if(isset($_GET['delete'])){
          <p> Email: <span><?php echo $fetch_orders['email']; ?></span> </p>
          <p> Địa chỉ: <span><?php echo $fetch_orders['address']; ?></span> </p>
          <p> Tác phẩm: <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> Tổng tiền: <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> Tổng tiền: <span><?php echo $fetch_orders['total_price']; ?>K VNĐ/-</span> </p>
          <p> Phương thức thanh toán: <span><?php echo $fetch_orders['method']; ?></span> </p>
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
