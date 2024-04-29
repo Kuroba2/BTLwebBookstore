@@ -1,5 +1,5 @@
 <?php
-Huy
+
 include 'config.php';
 
 session_start();
