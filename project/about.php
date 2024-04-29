@@ -18,7 +18,7 @@ if(!isset($user_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>Về Chúng Tôi</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -33,7 +33,7 @@ if(!isset($user_id)){
 
 <div class="heading">
    <h3>about us</h3>
-   <p> <a href="home.php">home</a> / about </p>
+   <p> <a href="home.php">Trang Chủ</a> / Về Chúng Tôi </p>
 </div>
 
 <section class="about">
@@ -45,10 +45,10 @@ if(!isset($user_id)){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="contact.php" class="btn">contact us</a>
+         <h3>Lý do nên lựa chọn chúng tôi?</h3>
+         <p>Đặt lợi ích của khách hàng lên hàng đầu! PTITBookStore cam kết cung cấp dịch vụ khách hàng tốt nhất có thể. Giúp bạn giải đáp mọi thắc mắc và giải quyết một cách nhanh chóng và chuyên nghiệp.</p>
+         <p>Kho tàng tri thức dồi dào! Nhiều thể loại khác nhau, bao gồm tiểu thuyết, sách khoa học, sách kinh doanh, sách văn hóa. Sự đa dạng này giúp bạn dễ dàng tìm thấy sách phù hợp với nhu cầu đọc của mình.</p>
+         <a href="contact.php" class="btn">Liên Hệ</a>
       </div>
 
    </div>
@@ -57,39 +57,39 @@ if(!isset($user_id)){
 
 <section class="reviews">
 
-   <h1 class="title">client's reviews</h1>
+   <h1 class="title">Đánh giá của khách hàng</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>Tôi đã có trải nghiệm mua sách tuyệt vời trên trang web PTITBookStore và thực sự ấn tượng với dịch vụ của họ. Tôi luôn tìm được thứ mình cần với mức giá phải chăng!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kedanhcaptraitim03</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>Giao diện của trang web rất dễ sử dụng và thân thiện với người dùng. Tìm kiếm sách và xem thông tin thuận tiện, giúp tôi dễ dàng tìm thấy những cuốn sách mà mình quan tâm!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Trangpham</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>PTITBookStore thực sự gây ấn tượng về sự đa dạng các thể loại sách. Từ tiểu thuyết, truyện ngắn, sách khoa học, sách kinh doanh đến sách về lịch sử, văn hóa, và nghệ thuật!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -97,12 +97,12 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Nguyenvanhoang123</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>Tôi cảm thấy hài lòng với dịch vụ của PTITBookStore. Sản phẩm đến trong thời gian nhanh chóng và đúng thời hạn. Sẽ tiếp tục gắn bó và mua hàng ở đây trong tương lai!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -110,33 +110,33 @@ if(!isset($user_id)){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Fancr7</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>Một trải nghiệm mua sắm thú vị! Ở đây có rất nhiều lựa chọn sách và tôi đã tìm thấy đúng những gì tôi đang tìm kiếm thỏa mãn nhu cầu của mình. Dịch vụ giao hàng cũng rất tốt!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>jojo</h3>
       </div>
 
       <div class="box">
-         <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <img src="images/cloneuser.jpg" alt="">
+         <p>PTITBookStore cung cấp một trải nghiệm mua sắm trực tuyến thuận tiện và đáng tin cậy. Tôi đã mua nhiều cuốn sách từ đây và chưa bao giờ hối hận về lựa chọn của mình.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Phương</h3>
       </div>
 
    </div>
@@ -145,74 +145,38 @@ if(!isset($user_id)){
 
 <section class="authors">
 
-   <h1 class="title">greate authors</h1>
+   <h1 class="title">Tác giả nổi bật</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/author-1.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/harukimurakami.jpg" alt="">
+         <h3>Haruki Murakami</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-2.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/fscottfitzgerald.jpg" alt="">
+         <h3>F.Scott Fitzgerald</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-3.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/nguyennhatanh.jpg" alt="">
+         <h3>Nguyễn Nhật Ánh</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-4.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/higashinokeigo.jpg" alt="">
+         <h3>Higashino Keigo</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-5.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/agathachristie.jpg" alt="">
+         <h3>Agatha Christie</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-6.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
+         <img src="images/yonezawahonobu.jpg" alt="">
+         <h3>Yonezawa Honobu</h3>
       </div>
 
    </div>
