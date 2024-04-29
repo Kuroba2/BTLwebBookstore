@@ -75,7 +75,7 @@ if(isset($_GET['delete_all'])){
             <input type="number" min="1" name="cart_quantity" value="<?php echo $fetch_cart['quantity']; ?>">
             <input type="submit" name="update_cart" value="Cập nhật" class="option-btn">
          </form>
-         <div class="sub-total"> Giá tiền: <span><?php echo $sub_total = ($fetch_cart['quantity'] * $fetch_cart['price']); ?> VNĐ/-</span> </div>
+         <div class="sub-total"> Giá tiền: <span><?php echo $sub_total = ($fetch_cart['quantity'] * $fetch_cart['price']); ?>K VNĐ/-</span> </div>
       </div>
       <?php
       $grand_total += $sub_total;
@@ -91,7 +91,7 @@ if(isset($_GET['delete_all'])){
    </div>
 
    <div class="cart-total">
-      <p>Tổng tiền: <span><?php echo $grand_total; ?> VNĐ/-</span></p>
+      <p>Tổng tiền: <span><?php echo $grand_total; ?>K VNĐ/-</span></p>
       <div class="flex">
          <a href="shop.php" class="option-btn">Tiếp tục mua sắm</a>
          <a href="checkout.php" class="btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">Thanh toán</a>
