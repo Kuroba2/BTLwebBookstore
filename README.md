@@ -9,4 +9,4 @@ B3.Chọn Admin của mysql trong XAMPP, Chọn new góc trái, tạo database m
 
 B4.chọn nhập(import) rồi đưa file shop_db trong folder "project" vị trí ở B2 vào.
 
-B5. Mở trình duyệt internet hiện tại trong cửa sổ mới, nhập trên thanh tìm kiếm "http://localhost/project/register.php" hiện giao diện đăng kí là hoàn thành, nếu lỗi không hiện gì thì tải riêng file shop_db về rồi import lại như B3,4.
+B5. Mở trình duyệt internet hiện tại trong cửa sổ mới, nhập trên thanh tìm kiếm "http://localhost/project/register.php" hiện giao diện đăng kí là hoàn thành, nếu lỗi không hiện gì thì do file shop_db.sql lỗi khi tải xuống, tải riêng file shop_db về rồi import lại như B3,4.
