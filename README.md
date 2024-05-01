@@ -1,5 +1,5 @@
 Html-CSS-PHP
-
+TEAM7
 B1.Cài XAMPP control panel, start APACHE và Mysql, nếu ko start được mysql thì window+search gõ service rồi tìm mysql chọn stop nó lại, rồi quay lại XAMPP start.
 
 B2. Kéo project git clone về vào vị trí folder PHPAMIN XAMP\htdocs\
