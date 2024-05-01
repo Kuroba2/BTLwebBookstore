@@ -129,7 +129,7 @@ if(isset($_POST['update_product'])){
       <div class="box">
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
-         <div class="price"><?php echo $fetch_products['price']; ?> VNĐ/-</div>
+         <div class="price"><?php echo $fetch_products['price']; ?>K VNĐ/-</div>
          <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">Chỉnh sửa</a>
          <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('Xóa tác phẩm này?');">Xóa</a>
       </div>

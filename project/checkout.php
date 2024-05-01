@@ -46,7 +46,8 @@ if(isset($_POST['order_btn'])){
          mysqli_query($conn, "DELETE FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
       }
    }
-   
+
+   header('location:orders.php');
 }
 
 ?>
@@ -85,14 +86,14 @@ if(isset($_POST['order_btn'])){
             $total_price = ($fetch_cart['price'] * $fetch_cart['quantity']);
             $grand_total += $total_price;
    ?>
-   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo ''.$fetch_cart['price'].' VNĐ/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
+   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo ''.$fetch_cart['price'].'K VNĐ/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
    <?php
       }
    }else{
       echo '<p class="empty">Giỏ hàng trống!</p>';
    }
    ?>
-   <div class="grand-total"> Tổng tiền: <span><?php echo $grand_total; ?> VNĐ/-</span> </div>
+   <div class="grand-total"> Tổng tiền: <span><?php echo $grand_total; ?>K VNĐ/-</span> </div>
 
 </section>
 
@@ -167,3 +168,4 @@ if(isset($_POST['order_btn'])){
 
 </body>
 </html>
+
