@@ -52,7 +52,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Have your book delivered remotely!</h3>
+      <h3>SÁCH CỦA BẠN SẼ ĐƯỢC GIAO TỚi TẬN NHÀ!</h3>
       <p>Cửa hàng bán sách của nhóm sinh viên Học Viện Công Nghệ Bưu Chính Viễn Thông PTIT</p>
       <a href="about.php" class="white-btn">Khám phá thêm</a>
    </div>
