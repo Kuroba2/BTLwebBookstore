@@ -46,7 +46,8 @@ if(isset($_POST['order_btn'])){
          mysqli_query($conn, "DELETE FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
       }
    }
-   
+
+   header('location:orders.php');
 }
 
 ?>
@@ -167,3 +168,4 @@ if(isset($_POST['order_btn'])){
 
 </body>
 </html>
+

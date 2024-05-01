@@ -19,8 +19,8 @@ if(isset($message)){
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/cuahangbansachptit/" class="fab fa-instagram"></a>
+            
          </div>
-         <p> <a href="login.php">Đăng nhập</a> | <a href="register.php">Đăng ký</a> </p>
       </div>
    </div>
 
