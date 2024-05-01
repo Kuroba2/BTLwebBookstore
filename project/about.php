@@ -32,8 +32,8 @@ if(!isset($user_id)){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>about us</h3>
-   <p> <a href="home.php">Trang Chủ</a> / Về Chúng Tôi </p>
+   <h3> Thông tin về shop </h3>
+   
 </div>
 
 <section class="about">
