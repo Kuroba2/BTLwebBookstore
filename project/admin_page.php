@@ -65,7 +65,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_completed; ?>/-</h3>
+         <h3><?php echo $total_completed; ?>K VNĐ/-</h3>
          <p>Đã thanh toán</p>
       </div>
 
