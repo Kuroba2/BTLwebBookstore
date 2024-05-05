@@ -11,12 +11,16 @@ if(!isset($admin_id)){
 }
 
 if(isset($_POST['update_order'])){
-
    $order_update_id = $_POST['order_id'];
    $update_payment = $_POST['update_payment'];
    mysqli_query($conn, "UPDATE `orders` SET payment_status = '$update_payment' WHERE id = '$order_update_id'") or die('query failed');
-   $message[] = 'Đã cập nhật đơn hàng!';
 
+   // Thêm dòng này để lấy lại dữ liệu đơn hàng sau khi cập nhật
+   $updated_order_query = mysqli_query($conn, "SELECT * FROM `orders` WHERE id = '$order_update_id'");
+   $updated_order = mysqli_fetch_assoc($updated_order_query);
+   $fetch_orders['payment_status'] = $updated_order['payment_status'];
+
+   $message[] = 'Đã cập nhật đơn hàng!';
 }
 
 if(isset($_GET['delete'])){
@@ -69,7 +73,7 @@ if(isset($_GET['delete'])){
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
             <select name="update_payment">
-               <option value="Chưa hoàn thành">Chưa hoàn thành</option>
+            <option value="" selected disabled><?php echo $fetch_orders['payment_status']; ?></option>
                <option value="Đã xác nhận">Đã xác nhận</option>
                <option value="Đã hoàn thành">Đã hoàn thành</option>
             </select>
@@ -94,3 +98,4 @@ if(isset($_GET['delete'])){
 
 </body>
 </html>
+
