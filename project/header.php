@@ -30,7 +30,7 @@ if(isset($message)){
 
          <nav class="navbar">
             <a href="home.php">Trang Chủ</a>
-            <a href="about.php">Thông Tin Về Chúng Tôi</a>
+            <a href="about.php">Giới Thiệu</a>
             <a href="shop.php">Cửa Hàng</a>
             <a href="cart.php">Giỏ Hàng</a>
             <a href="orders.php">Đơn Hàng</a>
