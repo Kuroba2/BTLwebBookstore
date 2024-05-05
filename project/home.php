@@ -52,9 +52,9 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Have your book delivered remotely!</h3>
-      <p>Cửa hàng bán sách của nhóm sinh viên Học Viện Công Nghệ Bưu Chính Viễn Thông PTIT</p>
-      <a href="about.php" class="white-btn">Khám phá thêm</a>
+      <h3>Khám phá Thế Giới của Sách!</h3>
+      <p>Chào mừng đến với P-BOOK - điểm đến lý tưởng cho những người yêu sách! Tại đây, chúng tôi tự hào mang đến cho bạn một thư viện số đa dạng, nơi bạn có thể khám phá và thưởng thức hàng ngàn tựa sách từ mọi thể loại và tác giả. Dù bạn là một người đam mê văn học cổ điển, một người đang tìm kiếm những cuốn sách mới nhất trong thị trường hiện đại, hoặc đơn giản là muốn khám phá thêm về kiến thức và tri thức, chúng tôi đều có mọi thứ bạn cần. Hãy dừng lại, khám phá và cùng chúng tôi lan tỏa đam mê đọc sách!</p>
+      <a href="about.php" class="white-btn">khám phá ngay thôi</a>
    </div>
 
 </section>
@@ -103,9 +103,9 @@ if(isset($_POST['add_to_cart'])){
       </div>
 
       <div class="content">
-         <h3>Về Chúng Tôi</h3>
-         <p>Project Web bán sách nhóm bài tập lớn số 7 của nhóm 1 môn Lập Trình Web do thầy Nguyễn Trọng Khánh giảng dạy! </p>
-         <a href="about.php" class="btn">Tìm hiểu thêm</a>
+         <h3>about</h3>
+         <p>Tại đây, chúng tôi cung cấp một nền tảng đa dạng với hàng ngàn tựa sách từ các thể loại khác nhau, từ văn học cổ điển đến tiểu thuyết hiện đại, từ khoa học đến tiểu sử. Với giao diện thân thiện và tính năng tìm kiếm thông minh, bạn có thể dễ dàng khám phá những tác phẩm mới và tìm thấy những cuốn sách phù hợp với sở thích và nhu cầu của mình. Hãy tham gia cùng chúng tôi trên hành trình khám phá văn học và mang tri thức đến mọi người!</p>
+         <a href="about.php" class="btn">đọc thêm</a>
       </div>
 
    </div>
@@ -115,9 +115,13 @@ if(isset($_POST['add_to_cart'])){
 <section class="home-contact">
 
    <div class="content">
-      <h3>Bạn có câu hỏi nào không?</h3>
-      <p>Hãy đóng góp ý kiến để giúp chúng tôi hoàn thiện hơn</p>
-      <a href="contact.php" class="white-btn">Liên hệ ngay</a>
+      <h3>bạn có bất cứ thắc măc gì?</h3>
+      <p>Tôi cần hỗ trợ hoặc thắc mắc về sản phẩm,làm thế nào để liên hệ với bạn?</p>
+      <p>Tôi có thể trả lại hoặc đổi sách không?</p>
+      <p>Có cách nào để theo dõi đơn hàng của tôi không?</p>
+      <p>Thời gian giao hàng dự kiến là bao lâu?</p>
+      <p>Làm thế nào để đặt hàng trên trang web của bạn?</p>
+      <a href="contact.php" class="white-btn">liện hệ với chúng tôi</a>
    </div>
 
 </section>
