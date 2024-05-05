@@ -56,7 +56,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="products">
 
-   <h1 class="title">Sách mới lên kệ</h1>
+   <h1 class="title">kệ sách</h1>
 
    <div class="box-container">
 
