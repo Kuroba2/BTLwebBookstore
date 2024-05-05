@@ -19,6 +19,7 @@ if(isset($message)){
             <a href="https://www.facebook.com/HocvienPTIT" class="fab fa-facebook-f"></a>
             <a href="https://twitter.com/home" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/cuahangbansachptit/" class="fab fa-instagram"></a>
+
             
          </div>
       </div>
@@ -30,7 +31,7 @@ if(isset($message)){
 
          <nav class="navbar">
             <a href="home.php">Trang Chủ</a>
-            <a href="about.php">Thông Tin Về Chúng Tôi</a>
+            <a href="about.php">Giới Thiệu</a>
             <a href="shop.php">Cửa Hàng</a>
             <a href="cart.php">Giỏ Hàng</a>
             <a href="orders.php">Đơn Hàng</a>
