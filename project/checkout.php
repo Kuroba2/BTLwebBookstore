@@ -117,10 +117,10 @@ if(isset($_POST['order_btn'])){
          <div class="inputBox">
             <span>Phương thức thanh toán:</span>
             <select name="method">
-               <option value="Thanh toán trực tiếp">Thanh toán trực tiếp</option>
+               <option value="Thanh toán trực tiếp">Thanh toán khi nhận hàng</option>
                <option value="Thẻ tín dụng">Thẻ tín dụng</option>
-               <option value="Paypal">Paypal</option>
-               <option value="Paytm">Paytm</option>
+               <option value="Paypal">Thanh toán qua ví Momo</option>
+               <option value="Paytm">Thanh toán qua ví VNpay</option>
             </select>
          </div>
          <div class="inputBox">
