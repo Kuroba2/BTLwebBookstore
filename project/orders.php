@@ -63,8 +63,14 @@ if(isset($_GET['delete'])){
          <p> Tác phẩm: <span><?php echo $fetch_orders['total_products']; ?></span> </p>
          <p> Tổng tiền: <span><?php echo $fetch_orders['total_price']; ?>K VNĐ/-</span> </p>
          <p> Trạng thái thanh toán: <span style="color:<?php if($fetch_orders['payment_status'] == 'Chưa hoàn thành'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
-         <a href="orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('Hủy đơn hàng này?');" class="delete-btn">Hủy đơn</a>
-         
+         <!-- các phần tử thông tin đơn hàng -->
+         <?php
+            if($fetch_orders['payment_status'] == 'Chưa hoàn thành') {
+         ?>
+            <a href="orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('Hủy đơn hàng này?');" class="delete-btn">Hủy đơn</a>
+         <?php
+            }
+         ?>    
          </div>
       <?php
        }
@@ -85,3 +91,4 @@ if(isset($_GET['delete'])){
 
 </body>
 </html>
+
