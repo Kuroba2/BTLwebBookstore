@@ -32,7 +32,6 @@ if(isset($message)){
             <a href="home.php">Trang Chủ</a>
             <a href="about.php">Thông Tin Về Chúng Tôi</a>
             <a href="shop.php">Cửa Hàng</a>
-            <a href="cart.php">Giỏ Hàng</a>
             <a href="orders.php">Đơn Hàng</a>
             <a href="contact.php">Liên Hệ</a>
          </nav>

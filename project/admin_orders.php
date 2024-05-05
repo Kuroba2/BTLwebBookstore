@@ -71,7 +71,8 @@ if(isset($_GET['delete'])){
             <select name="update_payment">
                <option value="" selected disabled><?php echo $fetch_orders['payment_status']; ?></option>
                <option value="Chưa hoàn thành">Chưa hoàn thành</option>
-               <option value="Hoàn thành">Đã hoàn thành</option>
+               <option value="Đã xác nhận">Đã xác nhận</option>
+               <option value="Đã hoàn thành">Đã hoàn thành</option>
             </select>
             <input type="submit" value="Cập nhật" name="update_order" class="option-btn">
             <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('Xóa đơn hàng này?');" class="delete-btn">Xóa</a>
@@ -86,13 +87,6 @@ if(isset($_GET['delete'])){
    </div>
 
 </section>
-
-
-
-
-
-
-
 
 
 
