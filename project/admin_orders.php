@@ -73,7 +73,7 @@ if(isset($_GET['delete'])){
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
             <select name="update_payment">
-            <option value="" selected disabled><?php echo $fetch_orders['payment_status']; ?></option>
+               <option value="" selected disabled><?php echo $fetch_orders['payment_status']; ?></option>
                <option value="Đã xác nhận">Đã xác nhận</option>
                <option value="Đã hoàn thành">Đã hoàn thành</option>
             </select>

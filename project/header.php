@@ -18,7 +18,7 @@ if(isset($message)){
          <div class="share">
             <a href="https://www.facebook.com/HocvienPTIT" class="fab fa-facebook-f"></a>
             <a href="https://twitter.com/home" class="fab fa-twitter"></a>
-            <a href="https://www.instagram.com/cuahangbansachptit/" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
 
             
          </div>
